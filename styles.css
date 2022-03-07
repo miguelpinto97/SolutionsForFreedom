@@ -1,0 +1,24 @@
+#MenuPrincipal{
+    width: 60%;
+    margin-left: auto;
+    margin-right: 2%;
+    position: relative;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#OpcionesNavegacion{
+    display: flex;
+    justify-content: space-between;  
+    padding: 25px 20px 8px 20px;
+    color:white;
+}
+
+#FondoSuperior{
+    width: 100%;
+    position: absolute;
+}
