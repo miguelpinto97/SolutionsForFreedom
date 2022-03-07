@@ -52,9 +52,7 @@ hr {
 }
 a{
     width: 100%;
-}
-a::before{
-    content: ">";
+    margin-left: 3%;
 }
 #OpcionesNavegacion{
     margin-left: auto; 
@@ -78,4 +76,6 @@ a::before{
     margin-left: auto;
     margin-bottom: auto;
 }
+.ImagenesMenu{
+display: none;}
 }
