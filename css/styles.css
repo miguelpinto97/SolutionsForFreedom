@@ -58,4 +58,22 @@ a::before{
 margin-left: auto; 
 flex-wrap: wrap;
 }
+#MenuPrincipal{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#MenuNavegacion{
+    margin: 0 auto 0 1% !important;
+    padding: 15px 20px 8px 2px;
+
+}
+#MenuNavegacion >button{
+    margin: 0 auto 0 1% !important;
+    margin-left: 0;
+    margin-right: auto;
+}
+#ContenedorLogo{
+    margin-left: auto;
+    margin-bottom: auto;
+}
 }
