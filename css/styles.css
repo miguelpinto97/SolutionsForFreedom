@@ -1,11 +1,12 @@
 #MenuPrincipal{
     width: 100%;
 
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 hr,#MenuNavegacion{
-    width: 60%;
+    width: 98%;
     margin: 0 2% 0 auto !important;
 }
 hr {
