@@ -22,7 +22,7 @@ hr {
     font-family: aileron,sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
 }
 #OpcionesNavegacion{
@@ -86,5 +86,6 @@ a{
     margin-bottom: auto;
 }
 .ImagenesMenu{
-display: none;}
+display: none;
+}
 }
