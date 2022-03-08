@@ -55,6 +55,18 @@ body{
     border: 1px white solid;
     filter: grayscale(1);
 }
+
+#ImgLogo{
+    width: 25%;
+    filter: grayscale(0.1);
+}
+
+.ImagenesCirculares{
+    border-radius: 100%;
+    border: 3px solid white;
+    filter: grayscale(0.1);
+}
+
 @media (max-width: 992px){
 hr {
     display: none;
@@ -87,5 +99,13 @@ a{
 }
 .ImagenesMenu{
 display: none;
+}
+
+
+#ImgLogo{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    filter: grayscale(0.1);
 }
 }
