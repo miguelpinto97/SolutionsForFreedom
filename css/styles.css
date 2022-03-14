@@ -36,7 +36,7 @@ hr {
 body{
     background-repeat:no-repeat;
     background-size:100%;
-    background-image:url("../img/sff.svg");
+    background-image:url("../img/fondopc.jpg");
     background-color: #848484 !important;
 }
 .navbar-toggler-icon{
@@ -53,12 +53,20 @@ body{
     margin-left: 10%;
     border-radius: 50px;
     border: 1px white solid;
-    filter: grayscale(1);
+    filter: grayscale(0.9);
+    transition: 0.5s;
+}
+
+.ImagenesSuperpuestas:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #ImgLogo{
     width: 25%;
     filter: grayscale(0.1);
+    margin-left: 2%;
 }
 
 .ImagenesCirculares{
@@ -147,7 +155,8 @@ display: none;
 #ImgLogo{
     width: 35%;
     display: block;
-    margin-left: auto;
+    margin-left: auto !important;
+    margin-right: 2%;
     filter: grayscale(0.1);
 }
 #ContenedorPrincipal{
