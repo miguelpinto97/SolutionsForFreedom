@@ -128,7 +128,7 @@ transition: 1s;
     body{
         background-repeat:no-repeat;
         background-size:100%;
-        background-image:url("../img/fondocel.svg");
+        background-image:url("../img/fondo_cel.svg");
     }    
     #ContenedorSlides{
         margin-top: 450px;
