@@ -18,7 +18,7 @@ hr {
 
 #MenuNavegacion{
     padding: 25px 20px 8px 20px;
-    color:white;
+    color:white !important;
     font-family: aileron,sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -30,8 +30,14 @@ hr {
     display: flex;
     justify-content: space-between;  
 }
+#OpcionesNavegacion> a{
+text-decoration: none;    
+color:white !important;
+
+}
 #OpcionesNavegacion > a:hover{
     font-weight: 550;
+    cursor: pointer;
 }
 body{
     background-repeat:no-repeat;
@@ -98,6 +104,10 @@ transition: 1s;
 }
 #SuperDer{
     position: absolute; left: 30%; top: 90px;
+}
+
+.pad15>img{
+    width: 100%;
 }
 @media (max-width: 1620px){
     #ContenedorSlides{
