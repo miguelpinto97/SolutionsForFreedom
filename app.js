@@ -104,3 +104,20 @@ $(document).ready(function () {
     }
 
 });
+
+
+function SendEmail(){
+    fetch('http://www.solutionsforfreedom.somee.com/User/InsertUser', {
+            method: 'POST',
+            body: JSON.stringify({
+                id: 0,
+                userName: "string",
+                userPassword: "string",
+                email: "pintog.ma97@gmail.com"
+              }),
+            headers: {
+                "Content-type": "application/json"
+            }})
+        .then(response => response.json())
+        .then(json => console.log(json))
+}
