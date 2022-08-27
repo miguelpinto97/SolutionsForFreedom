@@ -18,3 +18,17 @@
         link: 'http://www.solutionsforfreedom.org/'
     }
 ]
+
+ 
+             $('#calendar').fullCalendar({
+                defaultView: 'month',
+                events: eventsData,
+                eventClick: function (calEvent, jsEvent, view) {
+                    var botonHtml = "<a class='btn btn-sm btn-primary' style='width: 50%;margin: 0 auto 10px auto;display: block;' href='" + calEvent.link + "'>See more</a>"
+                    $('#event-title').text(calEvent.title);
+                    $('#event-description').html(calEvent.description);
+                    $('#event-link').html(botonHtml);
+                    $('#modal-event').modal('show')
+                    $('#modal-event').modal();
+                }
+            });
